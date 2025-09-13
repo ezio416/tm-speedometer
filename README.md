@@ -1,24 +1,21 @@
 <div align="center">
 
-# Speedometer Dashboard for Openplanet
+![Signed](https://img.shields.io/badge/Signed-Yes-00AA00)
+![Number of downloads](https://img.shields.io/badge/dynamic/json?query=downloads&url=https%3A%2F%2Fopenplanet.dev%2Fapi%2Fplugin%2F207&label=Downloads&color=purple)
+![Version](https://img.shields.io/badge/dynamic/json?query=version&url=https%3A%2F%2Fopenplanet.dev%2Fapi%2Fplugin%2F207&label=Version&color=red)
+![Game Trackmania](https://img.shields.io/badge/Game-Trackmania-blue)
+![Game Maniaplanet](https://img.shields.io/badge/Game-Maniaplanet_4-blue)
+![Game Turbo](https://img.shields.io/badge/Game-Turbo-blue)
 
-![Image](images/Basic.jpg)
+# Speedometer
 
-[![Version](https://img.shields.io/badge/dynamic/json?color=pink&label=Latest%20Public%20Version&query=version&url=https%3A%2F%2Fopenplanet.dev%2Fapi%2Fplugin%2F207)](https://openplanet.dev/plugin/speedometer)
-[![Total Downloads](https://img.shields.io/badge/dynamic/json?color=grey&label=Downloads&query=downloads&url=https%3A%2F%2Fopenplanet.dev%2Fapi%2Fplugin%2F207)](https://openplanet.dev/plugin/speedometer)
-![Signed](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Signed&query=signed&url=https%3A%2F%2Fopenplanet.dev%2Fapi%2Fplugin%2F207)
-
-![Tags 1](https://img.shields.io/badge/dynamic/json?color=darkgreen&label=Game&query=tags%5B0%5D.name&url=https%3A%2F%2Fopenplanet.dev%2Fapi%2Fplugin%2F207)
-![Tags 2](https://img.shields.io/badge/dynamic/json?color=blue&label=Game&query=tags%5B1%5D.name&url=https%3A%2F%2Fopenplanet.dev%2Fapi%2Fplugin%2F207)
-![Tags 3](https://img.shields.io/badge/dynamic/json?color=yellowgreen&label=Game&query=tags%5B2%5D.name&url=https%3A%2F%2Fopenplanet.dev%2Fapi%2Fplugin%2F207)
-
-</div>
-
-This plugin brings a speedometer dashboard with the RPM gauge, a gear indicator and the speed.
+This plugin brings a speedometer with the RPM gauge, a gear indicator, and the speed.
 
 Different themes are included, and you can create your own! ([see here](src/Themes/README.md))
 
 This plugin was created for the [Project Horizon](https://trackmania.exchange/s/tr/65123) - a map by MCYCShadow, that brings the Horizon speedometer!
+
+Originally created by [Greep](https://openplanet.dev/u/89matt89), as of September 2025 this is now being maintained by [Ezio](https://openplanet.dev/u/ezio416).
 
 ## Themes:
 
@@ -26,14 +23,14 @@ This plugin was created for the [Project Horizon](https://trackmania.exchange/s/
 
 ![Basic theme](images/Basic.jpg)
 
-### BasicDigital
+### Basic Digital
 
 ![BasicDigital theme](images/BasicDigital.jpg)
 
-### TrackmaniaTurbo
+### Trackmania Turbo
 
 ![TrackmaniaTurbo theme](images/TrackmaniaTurbo.jpg)
 
-### Ascension2023
+### Ascension 2023
 
 ![Ascension2023 theme](images/Ascension2023.jpg)
