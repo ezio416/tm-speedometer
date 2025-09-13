@@ -6,8 +6,8 @@ class BasicDigitalGauge : Gauge
     BasicDigitalGauge()
     {
         super();
-        m_GearFont = nvg::LoadFont("src/Fonts/Oswald-Demi-Bold-Italic.ttf");
-        m_SpeedFont = nvg::LoadFont("src/Fonts/Oswald-Light-Italic.ttf");
+        m_GearFont = nvg::LoadFont("assets/fonts/Oswald-Demi-Bold-Italic.ttf");
+        m_SpeedFont = nvg::LoadFont("assets/fonts/Oswald-Light-Italic.ttf");
     }
 
     void RenderSpeed() override

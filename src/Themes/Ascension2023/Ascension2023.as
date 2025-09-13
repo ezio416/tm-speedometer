@@ -5,7 +5,7 @@ class Ascension2023Gauge : Gauge
     Ascension2023Gauge()
     {
         super();
-        m_SpeedFont = nvg::LoadFont("src/Fonts/Venera-900.ttf");
+        m_SpeedFont = nvg::LoadFont("assets/fonts/Venera-900.ttf");
     }
 
     void RenderBackground() override

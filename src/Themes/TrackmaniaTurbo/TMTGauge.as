@@ -14,7 +14,7 @@ class TMTGauge : Gauge
     TMTGauge()
     {
         super();
-        m_SpeedFont = nvg::LoadFont("src/Fonts/TMT/trackmania-turbo-chrono.ttf");
+        m_SpeedFont = nvg::LoadFont("assets/fonts/TMT/trackmania-turbo-chrono.ttf");
     }
 
     void RenderSpeed() override
