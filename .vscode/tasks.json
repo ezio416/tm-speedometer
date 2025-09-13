@@ -1,20 +1,6 @@
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
-        {
-            "label": "Build .op file",
-            "type": "shell",
-            "command": "${workspaceFolder}/build-op.bat",
-            "problemMatcher": [
-                "$Openplanet Remote Build Problem Matcher: Angelscript Compiler"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        },
         {
             "type": "Openplanet Remote Build",
             "pluginId": "Speedometer",
@@ -22,7 +8,11 @@
             "problemMatcher": [
                 "$Openplanet Remote Build Problem Matcher: Angelscript Compiler"
             ],
-            "label": "Openplanet Remote Build: Load/Reload from User Folder"
+            "label": "Openplanet Remote Build: Load/Reload from User Folder",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
