@@ -5,7 +5,7 @@ namespace Locator
 
     void Render(const string &in name, const vec2 &in settingPos, const vec2 &in settingSize)
     {
-        vec2 screenSize = vec2(Draw::GetWidth(), Draw::GetHeight());
+        vec2 screenSize = vec2(Display::GetWidth(), Display::GetHeight());
         vec2 pos = settingPos * (screenSize - settingSize);
 
         UI::SetNextWindowSize(int(settingSize.x), int(settingSize.y), UI::Cond::Appearing);

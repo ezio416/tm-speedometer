@@ -27,7 +27,7 @@ class Gauge
         if (vis.CurGear == 0)
             m_gear = -1;
 
-        vec2 screenSize = vec2(Draw::GetWidth(), Draw::GetHeight());
+        vec2 screenSize = vec2(Display::GetWidth(), Display::GetHeight());
 		m_resPos = m_pos * (screenSize - m_size);
         m_center = vec2(m_size.x * 0.5f, m_size.y * 0.5f);
 		nvg::Translate(m_resPos.x, m_resPos.y);
