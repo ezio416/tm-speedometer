@@ -2,11 +2,8 @@
 name = "Speedometer"
 author = "Greep"
 category = "Overlay"
+version = "1.3.0"
 siteid = 207
-
-version = "1.2.0"
 
 [script]
 dependencies = [ "VehicleState" ]
-
-timeout = 0
